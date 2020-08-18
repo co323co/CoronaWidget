@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:id="@+id/mLayout"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tv_w_date"
+        android:gravity="center"
+        android:text="날짜"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textColor="#3F51B5"/>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tv_w_dom"
+        android:gravity="center"
+        android:text="국내 확진자 수 : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tv_w_over"
+        android:gravity="center"
+        android:text="해외 확진자 수 : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
